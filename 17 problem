@@ -1,0 +1,18 @@
+ const prompt = require ("prompt-sync")();
+
+ const purchase = prompt("PA=");
+
+ const amount = parseInt(purchase);
+
+ const discount = prompt ("D=");
+
+ const dis = parseInt(discount);
+ 
+ const finalamount = amount - dis                                                                                                                                                              
+ 
+ console.log("final amount=",finalamount)
+
+
+ 
+
+
