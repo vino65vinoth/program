@@ -1,0 +1,14 @@
+ const prompt = require ("prompt-sync")();
+
+ const buy = prompt ("Buying");
+ const buying = parseInt (buy);
+
+ const sell = prompt ("Selling");
+ const selling = parseInt (sell);
+
+ if (selling < buying) {
+    console.log ("profit")
+ }
+ else if (selling > buying) {
+    console.log ("loss")
+ }
