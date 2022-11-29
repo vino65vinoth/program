@@ -1,0 +1,13 @@
+const prompt = require ("prompt-sync")();
+
+const w = prompt ("weight=");
+
+const weight = parseInt(w);
+
+const h = prompt ("height=");
+
+const height = parseInt(h);
+
+const BMI = weight / (height * height)
+
+console.log("BMI=", BMI);
