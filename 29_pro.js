@@ -4,7 +4,7 @@
  const input = parseInt (n);
 
 
- if (input % 4 == 0) {
+ if (input % 7 == 0) {
     console.log ("leapyear")
  }
  else {
