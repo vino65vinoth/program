@@ -1,0 +1,11 @@
+ const prompt = require ("prompt-sync")();
+
+ const num = prompt ("number");
+ const number = parseInt (num);
+ 
+ if (number == 0) {
+     console.log("odd")
+ }
+ else { 
+      console.log("even")
+ }
