@@ -1,0 +1,20 @@
+ const prompt = require ("prompt-sync")();
+
+ let t = prompt ("tamil=");
+
+ const numbert = parseInt(t);
+
+ let e = prompt ("english=");
+
+ const numbere =parseInt(e);
+
+ let m = prompt ("maths=");
+
+ const numberm = parseInt(m);
+
+ const totalmark = numbert + numbere + numberm 
+
+ console.log("totalmark=", totalmark);
+ 
+
+ 
