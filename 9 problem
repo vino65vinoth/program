@@ -1,0 +1,11 @@
+ const prompt = require ("prompt-sync")();
+
+ const numa = prompt ("A=");
+
+ const A = parseInt(numa);
+
+ const numb = prompt ("B=");
+  
+ const B = parseInt (numb);
+
+ console.log("division=", A / B);
