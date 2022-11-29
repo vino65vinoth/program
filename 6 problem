@@ -1,0 +1,11 @@
+ const prompt = require ("prompt-sync")();
+
+ const numa = prompt("a=");
+
+ const number = parseInt(numa);
+
+ const numb = prompt("b=")
+
+ const num  = parseInt(numb);
+
+ console.log("sum=",number+num);
