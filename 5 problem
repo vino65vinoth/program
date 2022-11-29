@@ -1,0 +1,13 @@
+const prompt = require ("prompt-sync")();
+
+const name = prompt("Name:");
+
+const Doorno = prompt("Door no:");
+
+const street = prompt("Street:");
+
+const Place = prompt("place:");
+
+const District = prompt("District:");
+
+const pincode = prompt("Pincode:");
