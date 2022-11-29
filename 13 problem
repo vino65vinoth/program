@@ -1,0 +1,13 @@
+ const prompt = require ("prompt-sync")();
+
+ const pi = prompt ("PI=");
+
+ const r  = prompt ("R=");
+
+ const area = pi * r * r
+
+ const cricum = 2 * pi * r
+
+ console.log("PI=", area);
+
+ console.log("R=",cricum);
