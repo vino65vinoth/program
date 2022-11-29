@@ -1,0 +1,17 @@
+ const prompt = require ("prompt-sync")();
+
+ const p = prompt ("p=");
+
+ const princple = parseInt(p);
+
+ const n = prompt ("n=");
+
+ const numofyare = parseInt (n);
+
+ const r = prompt ("r=");
+
+ const rate = parseInt (r);
+
+ const simpleinterest = (p * n * r) / 100
+
+ console.log("simple interest=",simpleinterest);
