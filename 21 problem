@@ -1,0 +1,14 @@
+const prompt = require ("prompt-sync")();
+
+const num = prompt ("number");
+const number = parseInt (num);
+
+if (number > 0) {
+    console.log("pasitive")
+}
+else if (number < 0) {
+    console.log("negative")
+}
+else {
+    console.log("zero")
+}
