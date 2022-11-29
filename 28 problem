@@ -1,0 +1,13 @@
+ const prompt = require ("prompt-sync")();
+
+ const num = prompt ("number");
+ const number = parseInt (num);
+
+ if (number % 3) {
+    console.log ("Dream")
+ } else if (number % 5) {
+    console.log ("Tusk")
+ }
+ else {
+    console.log ("DREAMTUSK")
+ }
