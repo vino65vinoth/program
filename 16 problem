@@ -1,0 +1,11 @@
+ const prompt = require ("prompt-sync")();
+
+ const k = prompt("kg=");
+
+ const kilo = parseInt(k);
+
+ const chicken = prompt("Rs=");
+
+ const chickenprice = parseInt(chicken) 
+
+ console.log(" Total chicken price=", kilo * chickenprice);
