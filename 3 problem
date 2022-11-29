@@ -1,0 +1,7 @@
+ const prompt = require ("prompt-sync")();
+
+ const username = prompt("Enter your name:");
+
+ const useraddress = prompt("Enter your address:");
+
+ console.log("Hello", username,"you are in", useraddress);
