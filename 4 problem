@@ -1,0 +1,9 @@
+ const prompt = require ("prompt-sync")();
+
+ const name = prompt("Enter your name:");
+
+ const agestring = prompt("Enter your age:");
+
+ const age = parseInt(agestring);
+
+ console.log("You are",name,age,"years old");
